@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #box1{
+    align-items: center;
+    justify-content: space-between;
+    
+
+           
+    background-color: rgb(200, 232, 232);
+    width:2000px;
+    height:80px;
+}
+#travel{
+    margin-top: 2px;
+    margin-left: 200px;
+    width:90px;
+    height: 70px;
+}
+#phone{
+    margin-left: 200px;   
+}
+#search{
+    margin-left: 200px;   
+} */
+#box1 {
+    display:flex;
+    background-color: rgb(200, 232, 232);
+    align-items: center;
+   
+   
+
+   
+}
+#g{
+   
+            width: 120px;
+            height: 90px;
+            margin-left: 40px;
+   
+}
+#x{
+   margin-left: 300px;
+   
+}
+#c{
+   width: 170px;
+   height: 30px;
+   margin-left: 500px;
+   padding: 0 10px;
+   border-radius: 10px;
+   font-size: large;
+   box-shadow: 30px;
+
+}
+#v{
+   height: 30px;
+   padding: 0 10px;
+   border-radius: 10px;
+   font-size: large;
+   background-color: rgb(180, 205, 197);
+   box-shadow: 50px; 
+}
+#v:hover{
+    cursor: pointer;
+    color: rgb(241, 0, 0);
+}
+#box2{
+    /* position:sticky;
+    top: 0px; */
+    height: 50px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+    display:flex;
+}
+ul{
+    display:flex;
+}
+#box2 ul li{
+    margin: 0 30px;
+    padding: 10px 20px;
+}
+#box2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+#box2 ul li a:hover{
+    color: darkgoldenrod;
+}
+#but1{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 20px;
+    background-color:rgb(133, 234, 83) ;
+    color: white;
+}
+#but1:hover{
+    background-color: darkviolet;
+    color: black;
+    cursor: pointer;
+}
+#but2{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 20px;
+    background-color: rgb(233, 67, 67);
+    color: white;
+}
+#but2:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+#box3{
+    background-image: url(trav.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:1519px;
+    height: 1000px;
+    /* margin: 0px auto; */
+}
+#box3 h1{
+    text-align: center;
+    font-size:50px;
+    
+    color: rgb(74, 0, 58);
+    
+}
+#box3 p{
+    margin-top: 200px;
+    margin-left: 800px;
+    font-size: 33px;
+    color: rgb(219, 219, 219);
+
+}
+#box3 button a{
+     text-decoration: none;
+     color: white;
+
+}
+#box3 button{
+    font-size: 30px;
+    margin-top: 190px;
+    margin-left: 1000px;
+    padding:30px 80px;
+    border-radius: 60px;
+    border: 20px;
+    background-color:rgb(0, 0, 0) ;
+    
+}
+#box3 button:hover{
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+.flex1{
+    display:flex;
+}
+.flex1 >div{
+    background-color: cadetblue;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#q{
+    margin-left: 90px;
+    width:300px;
+    height: 300px;
+   }
+   #w{
+    margin-left: 120px;
+    width:300px;
+    height: 300px;
+
+   }
+   #e{
+    margin-left: 120px;
+    width:300px;
+    height: 300px;
+   }
+#tt{
+    font-style: italic;
+    font-size:50px;
+    
+   
+    margin-left: 90px;
+   }
+   #r{
+    margin-left: 90px;
+    width:600px;
+    height: 300px;
+   }
+   #t{
+    margin-left: 90px;
+    width:600px;
+    height: 300px;
+   }
+   #yy{
+    font-style: italic;
+    font-size:50px;
+    margin-left: 90px;
+   }
+   #box4{
+    margin-top: -23px;
+    background-color: rgb(200, 232, 232) ;
+    
+   }
+   #z{
+    text-decoration: none; 
+    display: block;
+   }
+   #m{
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(208, 245, 245);
+    
+    
+   }
+   /* #vc input{
+    
+    border-color: black;
+    border-radius: 10px;
+    border: 20px;
+    padding: 5px;
+    
+   }
+    */
+    #hg{
+        background-color: rgb(250, 245, 245);
+        padding:0 20px;
+        
+        width: 150px;
+        height: 20px;
+        border-radius: 30px;
+        
+    }
+    #ee{
+        height: 20px;
+        background-color: red;
+        color: white;
+        padding: 0 10px;
+        
+
+    }
+   
+   #m >div{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+
+
+   }
